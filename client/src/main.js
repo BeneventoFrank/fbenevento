@@ -15,8 +15,5 @@ new Vue(
     template: "<App/>",
     components: {
       App
-    },data(){
-        return{
-            message:'frank'
-        }}
+    }
   });
