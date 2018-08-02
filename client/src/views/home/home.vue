@@ -37,7 +37,12 @@
           <br>
           <br>
           <br>
-          <br>          
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
         </div>
       </div>
     </header>
@@ -45,132 +50,117 @@
     <!-- Resume -->
     <section style="background-color:#D8DBE2" id="resume">
 
-      <div class="container">
+      <div class="container" style="max-width:100%">
 
         <div class="row">
 
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="/static/img/frank.png" alt="">
-              <br>
-              <br>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                    <a href="#"><i style="font-size:30" class="fa fa-github"></i></a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="#"><i style="font-size:30" class="fa fa-linkedin"></i></a>                  
-                </li>
-              </ul>
+            <div class="col-12">
+                <div class="team-member col-12">
+                    <img class="mx-auto rounded-circle" src="/static/img/frank.png" alt="">
+                    <h2 class="section-heading text-uppercase">Frank Benevento</h2>                                        
+                    <h3 class="section-subheading text-muted no-margin">Developer</h3>
+                    <a href="mailto:frankbenevento123@gmail.com?Subject=Hello%20again" target="_top">frankbenevento123@gmail.com</a>
+                    <br>
+                    (817)-805-5994
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="#"><i style="font-size:30" class="fa fa-github"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#"><i style="font-size:30" class="fa fa-linkedin"></i></a>                  
+                        </li>
+                    </ul>
+                </div>
+                <br>
+                <div class="col-12"> 
+                    <ul class="timeline text-center">
+                        <li>
+                            <div class="timeline-heading">
+                                <h4>2011-2018</h4> 
+                                <h4><a href='https://www.msionline.com/#/home'>MSIOnline</a></h4>
+                                <h5>Web Developer</h5>
+                            </div>
+
+                            <div class="timeline-panel" style="float:left;">
+                                <div class="timeline-body">
+                                    <div class="timeline-heading">
+                                        <h5>Key Achievements</h5>
+                                    </div>
+                                    <ul class="timeline-list">
+                                        <li>Designed and developed Inspection QC system increasing completions from 700 to 3000 per day.  In order to cope with the increased throughput, I provided dashboards with real-time statistics and performance measurements to the management team.</li>
+                                        <li>Engineered custom solution allowing the business team to reduce Work Order assignment turn times. Introduced the concept of auto-assignment, added critical relief to the Vendor Management team.</li>                                            
+                                        <li>Partnered with off-shore development teams in order to reduce on-shore maintenance responsibilities and free up resources. As a result of this partnership, On-shore developers are able to move forward with new development while Legacy systems are being maintained.</li>                                            
+                                    </ul>                                    
+                                <br>
+                                <br>
+                                    <div class="timeline-heading">
+                                        <h5>Technology</h5>
+                                    </div>
+                                    <ul class="timeline-list">
+                                        <li>ASP .net c#/vb</li>
+                                        <li>FeathersJS</li>
+                                        <li>Web Api</li>                                                                                
+                                        <li>Vue Js</li>
+                                        <li>MSSQL</li>
+                                    </ul>                                    
+                                </div>
+                            </div>
+                            <div class="timeline-panel" style="float:right;">
+                                <div class="timeline-body">
+                                    <div class="timeline-heading">
+                                        <h5>Experience</h5>
+                                    </div>
+                                    <ul class="timeline-list">
+                                        <li>Created feature rich custom application modules to meet the needs of increasing business. </li>
+                                        <li>Participated in all large-scale initiatives.  As one of the more senior members of the team, my role was to always provide insight into possible pitfalls that may be overlooked while planning is taking place. </li>
+                                        <li>At the request of the CEO, relocated to Jacksonville Florida where I assembled a development team that would consume 100% support for 2 of the 4 business lines. 	</li>
+                                        <li>Create and maintain TFS builds for a wide variety of applications.</li>
+                                        <li>Plan, coordinate and execute production releases using multiple deployment mechanisms  </li>
+                                        <li>Responsible for debugging and resolving production issues timely and effectively.</li>
+                                        <li>Primary system administrator for on-prem hosted Jira ticketing system. Created and maintained all workflows to support the needs of the company.</li>
+                                    </ul>                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-heading">
+                                <h4>2009-2011</h4>
+                                <h4><a href='https://www.sni.org'>Seneca Nation Of Indians</a></h4>
+                                <h5>Developer</h5>
+                            </div>
+
+                            <div class="timeline-panel" style="float:left;">
+                                <div class="timeline-body">
+                                    <div class="timeline-heading">
+                                        <h5>Key Achievements</h5>
+                                    </div>
+                                    <ul class="timeline-list">
+
+                                    </ul>                                    
+                                </div>
+                            </div>
+                            <div class="timeline-panel" style="float:right;">
+                                <div class="timeline-body">
+                                    <div class="timeline-heading">
+                                        <h5>Experience</h5>
+                                    </div>
+                                    <ul class="timeline-list">
+                                        <li>Created employee status pages used to track employees in office and out of office status.</li>
+                                        <li>Designed and implemented a web-based solution for help ticket creation and tracking</li>
+                                        <li>Provided user-friendly reporting used by senior staff for executive status updates.</li>
+                                        <li>Converted Seneca Nation Website to .net. This site is viewable here http://www.sni.org/.</li>
+                                        <li>Created internal and external news and announcements resources. These sites function as a central point for news, documents, announcements etc. The external site is viewable here http://news.sni.org/.</li>
+                                        <li>Developed administrator tools to allow users to maintain their own content.</li>
+                                        <li>Responsible for working with department directors creating individual public facing sites designed to increase awareness of projects and overall department services.</li>
+                                        <li>Created central repository of information to ensure all departments and applications use the standardized data.</li>
+                                        <li>Supported all operations of the Seneca Nation IT department.</li>
+                                    </ul>                                    
+                                </div>
+                            </div>
+                        </li>                        
+                    </ul>                    
+                </div>               
             </div>
-          </div>
-          <div class="col-lg-8 text-center">
-            <h2 class="section-heading text-uppercase">Frank Benevento</h2>
-            <h3 class="section-subheading text-muted">Developer</h3>
-
-            <br>
-            
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="/static/img/about/1.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>2009-2011</h4>
-                    <h4 class="subheading">Our Humble Beginnings</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="/static/img/about/2.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>March 2011</h4>
-                    <h4 class="subheading">An Agency is Born</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="/static/img/about/3.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>December 2012</h4>
-                    <h4 class="subheading">Transition to Full Service</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="/static/img/about/4.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>July 2014</h4>
-                    <h4 class="subheading">Phase Two Expansion</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4>Be Part
-                    <br>Of Our
-                    <br>Story!</h4>
-                </div>
-              </li>
-            </ul>
-            
-            <br>            
-            <br>
-            <br>            
-            <br>
-            <br>            
-            <br>
-            <br>            
-            <br>
-            <br>            
-            <br>
-            <br>            
-            <br>
-            <br>            
-            <br>
-            <br>            
-            <br>
-            <br>            
-            <br>
-            <br>            
-            <br>
-            <br>            
-            <br>
-            <br>            
-            <br>
-            <br>            
-            <br>
-            <br>            
-            <br>
-            <br>            
-            <br>
-            <br>            
-            <br>
-            <br>            
-
-          </div>
         </div>
       </div>
     </section>
