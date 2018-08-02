@@ -8,6 +8,15 @@ import Vue from "vue";
 import App from "./app";
 import router from "./router";
 
+
+import '../static/css/vendor/bootstrap/css/bootstrap.css'
+import '../static/css/vendor/font-awesome/css/font-awesome.css'
+import '../static/css/agency.css'
+import '../static/css/fbenevento.css'
+
+
+
+
 new Vue(
     {
     el: "#app",
