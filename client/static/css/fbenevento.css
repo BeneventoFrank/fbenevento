@@ -80,3 +80,26 @@ body {
   {
     background-color: #546A7B !important;  
   }
+
+  .card-img-top
+  {
+      border-radius: 50%;
+      display:block;
+      margin:auto;
+  }
+  .card-body
+  {
+      text-align: left;
+  }
+
+  .list-group-left
+  {
+    text-align: left;
+  }
+  .lg-text {
+      font-size:27px;
+  }
+
+  .center-text{
+      text-align:center;
+  }

@@ -42,13 +42,20 @@
         <div class="row">
             <div class="col-12">
                 <div class="team-member col-12">
-                    <img class="mx-auto rounded-circle" src="/static/img/frank.png" alt="">
-                    <h2 class="section-heading text-uppercase">Frank Benevento</h2>                                        
-                    <h3 class="section-subheading text-muted no-margin">Senior Software Developer</h3>
+                    <div class="card" style="width: 18rem;">
                     <br>
-                    <a href="mailto:frankbenevento123@gmail.com?Subject=Hello%20again" target="_top">frankbenevento123@gmail.com</a>
-                    <br>
-                    (817)-805-5994
+                    <img class="card-img-top" src="/static/img/frank.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title lg-text center-text">Frank Benevento</h5>
+                        <h3 class="section-subheading text-muted no-margin center-text">Senior Software Developer</h3>   
+                        <br>                     
+                    </div>
+                    <ul class="list-group list-group-flush list-group-left">
+                        <li class="list-group-item">Fairfax, CA 94930</li>
+                        <li class="list-group-item">817-805-5994</li>
+                        <li class="list-group-item">frankbenevento123@gmail.com</li>
+                    </ul>
+                    <div class="card-body">
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item">
                             <a href="#"><i style="font-size:30" class="fa fa-github"></i></a>
@@ -57,6 +64,8 @@
                             <a href="#"><i style="font-size:30" class="fa fa-linkedin"></i></a>                  
                         </li>
                     </ul>
+                    </div>
+                    </div>
                 </div>
                 <br>
             </div>
