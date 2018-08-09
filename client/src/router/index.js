@@ -10,9 +10,10 @@ export default new Router({
   mode: 'hash',
   routes: [
     {
-      path: '/',
+      path: '*',
       name: 'home',
       component: home
     }
+
   ]
 })

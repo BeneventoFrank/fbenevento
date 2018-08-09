@@ -1,3 +1,6 @@
+body {
+    color:#393D3F !important;
+}
 #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
@@ -20,11 +23,11 @@
   }
   
   a {
-    color: #082E44;
+    color: #393D3F;
   }
   
   a:hover {
-    color: #3E5C76;
+    color: red;
   }
 
   ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
@@ -42,7 +45,7 @@
   }
 
   .timeline-heading{
-      background-color:#D8DBE2;
+      background-color:#C6C5B9;
   }
   
   .timeline > li .timeline-panel {
@@ -53,4 +56,27 @@
   }
   .timeline-panel {
       padding:0 !important;
+  }
+  .container {
+      min-height: 100%;
+  }
+ 
+  .about {
+    background-color:#F5F1ED
+}
+  .resume {
+      background-color:#C6C5B9
+  }
+
+  .team-member img{
+      border: 7px solid #62929E;
+  }
+
+  .navbar-shrink {
+    background-color: #546A7B !important;
+  }
+  
+  .navbar-toggler
+  {
+    background-color: #546A7B !important;  
   }
