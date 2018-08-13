@@ -61,9 +61,9 @@ body {
       min-height: 100%;
   }
  
-  .about {
+  .alt-bg {
     background-color:#F5F1ED
-}
+  }
   .resume {
       background-color:#C6C5B9
   }
@@ -101,5 +101,23 @@ body {
   }
 
   .center-text{
-      text-align:center;
+      text-align: center !important;
+  }
+  .container{
+      min-width:100%;
+  }
+  .testDiv {
+    background-image: url('/static/img/test.jpg');
+  }
+  
+  section#contact {
+      background-color:#F5F1ED;
+      background-image:none;
+  }
+  section#contact .section-heading {
+    color: inherit;
+  }
+  .contact-card {
+      max-width:50%;
+      margin:auto;
   }

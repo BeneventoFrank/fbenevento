@@ -32,40 +32,69 @@
     <header class="masthead" id="home">
       <div class="container">
         <div class="intro-text">
-                <div class="intro-lead-in">Welcome To My Site!</div>
+            <div class="intro-lead-in">Welcome To My Site!</div>
         </div>
       </div>
     </header>
     <!-- About -->
-    <section class='about' id="about">
+    <section class='alt-bg' id="about">
       <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">About Me</h2>
+          </div>
+        </div>
         <div class="row">
             <div class="col-12">
                 <div class="team-member col-12">
-                    <div class="card" style="width: 18rem;">
-                    <br>
-                    <img class="card-img-top" src="/static/img/frank.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title lg-text center-text">Frank Benevento</h5>
-                        <h3 class="section-subheading text-muted no-margin center-text">Senior Software Developer</h3>   
-                        <br>                     
+                    <div>
+                        <div class="card" style="float:left;">
+                            <div>
+                                <br>
+                                <img class="card-img-top" src="/static/img/frank.png" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title lg-text center-text">Frank Benevento</h5>
+                                <h3 class="section-subheading text-muted no-margin center-text">Senior Software Developer</h3>   
+                                <br>                     
+                            </div>
+                            <ul class="list-group list-group-flush list-group-left">
+                                <li class="list-group-item"><i class="fa fa-map-marker" aria-hidden="true"></i> Fairfax, CA 94930</li>
+                                <li class="list-group-item"><i class="fa fa-phone-square" aria-hidden="true"></i> 817-805-5994</li>
+                                <li class="list-group-item"><i class="fa fa-envelope" aria-hidden="true"></i> frankbenevento123@gmail.com</li>
+                            </ul>
+                            <div class="card-body">
+                                <ul class="list-inline social-buttons">
+                                    <li class="list-inline-item center-text">
+                                        <a href="#"><i style="font-size:30" class="fa fa-github"></i></a>
+                                    </li>
+                                    <li class="list-inline-item center-text">
+                                        <a href="#"><i style="font-size:30" class="fa fa-linkedin"></i></a>                  
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div style="min-height:606px; text-align:left; text-indent:30px" class="card">
+                            <p>
+                                Please, call me Frank. 
+                            </p>
+                            <p>
+                                I am a Senior Developer new to the San Francisco Bay area.  
+
+                                projects
+
+                                skills:
+
+                                technologies
+
+
+                            </p>
+                        </div>
+
                     </div>
-                    <ul class="list-group list-group-flush list-group-left">
-                        <li class="list-group-item">Fairfax, CA 94930</li>
-                        <li class="list-group-item">817-805-5994</li>
-                        <li class="list-group-item">frankbenevento123@gmail.com</li>
-                    </ul>
-                    <div class="card-body">
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="#"><i style="font-size:30" class="fa fa-github"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#"><i style="font-size:30" class="fa fa-linkedin"></i></a>                  
-                        </li>
-                    </ul>
-                    </div>
-                    </div>
+
+
+
                 </div>
                 <br>
             </div>
@@ -91,12 +120,13 @@
                             <div class="timeline-panel" style="float:left;">
                                 <div class="timeline-body">
                                     <div class="timeline-heading">
-                                        <h5>Key Achievements</h5>
+                                        <h5>Key Initiatives</h5>
                                     </div>
                                     <ul class="timeline-list">
-                                        <li>Designed and developed Inspection QC system increasing completions from 700 to 3000 per day.  In order to cope with the increased throughput, I provided dashboards with real-time statistics and performance measurements to the management team.</li>
-                                        <li>Engineered custom solution allowing the business team to reduce Work Order assignment turn times. Introduced the concept of auto-assignment, added critical relief to the Vendor Management team.</li>                                            
-                                        <li>Partnered with off-shore development teams in order to reduce on-shore maintenance responsibilities and free up resources. As a result of this partnership, On-shore developers are able to move forward with new development while Legacy systems are being maintained.</li>                                            
+                                        <li>Assembled and led remote IT department responsible for 50% of the overall system maintenance.</li>   
+                                        <li>Designed and developed Inspection QC system increasing completions from 700 to 3000 per day.</li>
+                                        <li>Engineered custom solution allowing the business team to reduce Work Order assignment turn times.</li>
+                                        <li>Partnered with off-shore development teams in order to reduce on-shore maintenance responsibilities and free up resources. </li>                                            
                                     </ul>                                    
                                 <br>
                                 <br>
@@ -281,46 +311,40 @@
 
 
     <!-- Contact -->
-    <section id="contact">
+    <section id="contact" class="alt-bg">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase">Contact Me</h2>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate="novalidate">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
-                    <p class="help-block text-danger"></p>
-                  </div>
+            <div class="col-12">
+                <div class="team-member col-12">
+                        <div class="card contact-card">
+                            <div class="card-body">
+                                <h5 class="card-title lg-text center-text">Frank Benevento</h5>
+                                <br>                     
+                            </div>
+                            <ul class="list-group list-group-flush list-group-left">
+                                <li class="list-group-item"><i class="fa fa-map-marker" aria-hidden="true"></i> Fairfax, CA 94930</li>
+                                <li class="list-group-item"><i class="fa fa-phone-square" aria-hidden="true"></i> 817-805-5994</li>
+                                <li class="list-group-item"><i class="fa fa-envelope" aria-hidden="true"></i> frankbenevento123@gmail.com</li>
+                            </ul>
+                            <div class="card-body">
+                                <ul class="list-inline social-buttons">
+                                    <li class="list-inline-item center-text">
+                                        <a href="#"><i style="font-size:30" class="fa fa-github"></i></a>
+                                    </li>
+                                    <li class="list-inline-item center-text">
+                                        <a href="#"><i style="font-size:30" class="fa fa-linkedin"></i></a>                  
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
-                </div>
-              </div>
-            </form>
-          </div>
+                <br>
+            </div>
         </div>
       </div>
     </section>
@@ -372,6 +396,7 @@
 <script>
 
 import $ from 'jquery'
+import jQuery from '../../../static/scripts/jquery.easing.js'
 
 export default {
   data: function() {
@@ -396,6 +421,21 @@ export default {
     navbarCollapse();
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
+
+    // Smooth scrolling using jQuery easing
+    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+            $('html, body').animate({
+            scrollTop: (target.offset().top - 54)
+            }, 1000, "easeInOutExpo");
+            return false;
+        }
+        }
+    });
+
     }
   }
 };
