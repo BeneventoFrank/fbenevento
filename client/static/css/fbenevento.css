@@ -132,20 +132,20 @@ body{
 }
 
 .vertLine{
-  border:1px solid #546A7B;
+  border-right:1px solid #546A7B;
   min-height:50px;
   width: 1px;
   align-self: center;
 }
 .horizontalRight{
-  border:1px solid #546A7B;
+  border-top:1px solid #546A7B;
   width: 50%;
   height:1px;
   align-self: flex-end;
   margin-right:1px;
 }
 .horizontalLeft{
-  border:1px solid #546A7B;
+  border-top:1px solid #546A7B;
   width: 50%;
   height:1px;
   align-self: flex-start;
@@ -176,7 +176,9 @@ body{
   font-size:large;
 }
 .mainSectionContent{
-  height:100%; 
+  height:100%;
+  margin-top:20px;
+  margin-bottom:20px; 
 }
 .sectionHeading {
   justify-content: center;
@@ -199,13 +201,39 @@ body{
   width:150px;
 }
 .aboutMe{
-  background-color: #FDFDFF;
+  background-color: #E9F2F3;
 }
 .resume{
-  background-color: #C6C5B9;
+  background-color: #E9F2F3;
   margin-top:20px;
   margin-bottom: 20px;
 }
-
+.contactInfo{
+  width:35%;
+  margin-top:20px;
+}
+.contactInfo img{
+  border:5px solid #393D3F;
+  border-radius: 50%;
+  width:200px;
+  height:200px;
+}
+.contactInfo p {
+  border-bottom:1px solid gray;
+  margin-top:15px;
+  width:300px;
+  padding:5px;
+}
+.contactInfo p i {
+  padding:5px;
+}
+.contactInfo p a {
+  background-color:black;
+  color:white;
+  height:100%;
+}
+.name{
+  font-size: xx-large;
+}
 
 

@@ -34,7 +34,23 @@
                 <section class='lineRight'>
                     <section class='reduceForLines aboutMe'>
                         <div class='mainSectionContent'>
-                                hello world i am frank.
+                            <section class="flexContainer">
+                                <div class="flexContainer contactInfo stackAndCenter">
+                                    <img class="card-img-top" src="/static/img/frank.png" alt="Me at my computer">
+                                    <p class='name'>Frank Benevento</p>
+                                    <p><i class="fa fa-map-marker" aria-hidden="true"></i>Fairfax CA 94930</p>
+                                    <p><i class="fa fa-phone-square" aria-hidden="true"></i>817-805-5994</p>
+                                    <p><i class="fa fa-envelope" aria-hidden="true"></i>frankbenevento123@gmail.com</p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <a href="#"><i class="fa fa-github"></i></a>                                         
+                                    </p>
+                                    
+                                </div>
+                                <div>
+                                    
+                                </div>    
+                            </section>
                         </div>
                     </section>
                 </section>
@@ -296,7 +312,7 @@
                 <div class='horizontalRight'>&nbsp;</div>
 
                 <section class='lineRight'>
-                    <section class='reduceForLines'>
+                    <section class='reduceForLines contactMe'>
                         <div class='mainSectionContent'>
                                 content goes here
                         </div>
