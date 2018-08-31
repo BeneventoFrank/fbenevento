@@ -49,6 +49,7 @@ table {
 
 body{
   font-family:'Nunito Sans', sans-serif ;
+  background-color:#C6C5B9;
 }
 .flexContainer{
   display:flex;
@@ -88,6 +89,7 @@ body{
 }
 .lineLeft{
   border-left:1px solid #546A7B;
+  height:fit-content;
 }
 .centerItem{
   justify-content: center;
@@ -98,6 +100,7 @@ body{
 .reduceForLines{
   width: 99%;
   margin:0 auto;
+  padding:20px;
 }
 .fillViewPort{
   min-height: 100%; /*forcing the sections to fill the full height of the window*/
@@ -133,7 +136,7 @@ body{
 
 .vertLine{
   border-right:1px solid #546A7B;
-  min-height:50px;
+  min-height:60px;
   width: 1px;
   align-self: center;
 }
@@ -177,8 +180,6 @@ body{
 }
 .mainSectionContent{
   height:100%;
-  margin-top:20px;
-  margin-bottom:20px; 
 }
 .sectionHeading {
   justify-content: center;
@@ -201,12 +202,14 @@ body{
   width:150px;
 }
 .aboutMe{
-  background-color: #E9F2F3;
+  background-image: url("/static/img/gl.jpg");
 }
 .resume{
-  background-color: #E9F2F3;
-  margin-top:20px;
-  margin-bottom: 20px;
+  background-image: url("/static/img/gl.jpg");
+  height:100%;
+}
+.contactMe{
+  background-image: url("/static/img/gl.jpg");
 }
 .contactInfo{
   width:35%;
@@ -236,4 +239,22 @@ body{
   font-size: xx-large;
 }
 
+.boxShadow{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 3px 5px lightgray;
+  }
+.sideBar{
+  width: 25%;
+}
 
+.objectiveText{
+  margin-bottom:40px;
+}
+
+.job{
+  margin-top:30px;
+}
+.resumeContent{
+  padding:20px;
+}
