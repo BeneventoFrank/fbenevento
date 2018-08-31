@@ -67,6 +67,7 @@ body{
 .mainContentContainer{
   width: 90%;
   height:100%;
+  flex-direction: column;
 }
 .stackAndCenter{
   flex-direction:column;
@@ -89,7 +90,6 @@ body{
 }
 .lineLeft{
   border-left:1px solid #546A7B;
-  height:fit-content;
 }
 .centerItem{
   justify-content: center;
@@ -179,7 +179,7 @@ body{
   font-size:large;
 }
 .mainSectionContent{
-  height:100%;
+  height:fit-content;
 }
 .sectionHeading {
   justify-content: center;
@@ -206,7 +206,6 @@ body{
 }
 .resume{
   background-image: url("/static/img/gl.jpg");
-  height:100%;
 }
 .contactMe{
   background-image: url("/static/img/gl.jpg");
