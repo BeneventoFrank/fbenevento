@@ -47,46 +47,31 @@ table {
 	border-spacing: 0;
 }
 
-
-
 body{
-  font-family:'Nunito Sans', sans-serif;
+  font-family:'Nunito Sans', sans-serif ;
 }
-
-
 .flexContainer{
   display:flex;
-  
-}
-
-.flexContainer section{
-  width:100%;
-  height:100%;
-  min-height: 100%;
 }
 .navbar-shrink {
   background-color: #546A7B !important;
   height:50px !important;
 }
-.mainHeader{
-  width:100%;
-  height:75px;
-  position: fixed;
+.stackItems{
+  flex-direction:column;
 }
-.mainContent{
-  flex-direction: column;
+.centerItems{
+  justify-content: center;
 }
-.mainNav{
- justify-content: flex-end;
-} 
-.mainNav a{
-  margin:10px;
- }
+.mainContentContainer{
+  width: 90%;
+  height:100%;
+}
+.stackAndCenter{
+  flex-direction:column;
+  align-items:center;
 
-.fillViewPort{
-  min-height: 100%; /*forcing the sections to fill the full height of the window*/
 }
-
 .masthead {
   color: white;
   background-image: url("/static/img/bgHeader.jpg");
@@ -98,6 +83,26 @@ body{
   -o-background-size: cover;
   background-size: cover;
 }
+.homeImage{
+  width: 100%;
+}
+.lineLeft{
+  border-left:1px solid #546A7B;
+}
+.centerItem{
+  justify-content: center;
+}
+.lineRight{
+  border-right:1px solid #546A7B;
+}
+.reduceForLines{
+  width: 90%;
+  margin:0 auto;
+}
+.fillViewPort{
+  min-height: 100%; /*forcing the sections to fill the full height of the window*/
+}
+
 .masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
@@ -113,26 +118,55 @@ body{
   align-items: center;
   justify-content: center;
 }
+.mainNav{
+  justify-content: flex-end;
+} 
+.mainNav a{
+   margin:10px;
+}
+.mainHeader{
+    width:100%;
+    height:75px;
+    position: fixed;
+}
 
+.vertLine{
+  border:1px solid #546A7B;
+  min-height:50px;
+  width: 1px;
+  align-self: center;
+}
+.horizontalRight{
+  border:1px solid #546A7B;
+  width: 50%;
+  height:1px;
+  align-self: flex-end;
+  margin-right:1px;
+}
+.horizontalLeft{
+  border:1px solid #546A7B;
+  width: 50%;
+  height:1px;
+  align-self: flex-start;
+  margin-right:1px;
+}
+.sectionContainer{
+  width:90%;
+  height: 100%;
+  flex-direction: column;
+}
+.sectionTitle{
+  font-size: 45px;
+  color:white;
+}
 .jobHeader{
   justify-content: space-between;
+  align-items: baseline;
 }
 .techStack{
   width:100px;
   flex-wrap: wrap;
   padding:10px;
-}
-
-.resumeSection{
-  background-color:#C6C5B9;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
-  padding:10px;
-  overflow: auto;
-}
-.jobHeader{
-  align-items: baseline;
 }
 .header{
   font-size:xx-large;
@@ -140,11 +174,15 @@ body{
 .subHeader{
   font-size:large;
 }
-.innerContainer{
-  width:100%;
-  max-width:900px;
-  flex-direction:column;
-  min-height:500px;
+.mainSectionContent{
+  height:100%; 
+}
+.sectionHeading {
+  justify-content: center;
+  align-self: center;
+  width: 300px;
+  text-align: center;
+  background-color: #546A7B;
 }
 .mg-l{
   margin-left:50px;
@@ -159,4 +197,7 @@ body{
 .medWidth{
   width:150px;
 }
+
+
+
 
