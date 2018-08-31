@@ -4,10 +4,10 @@
 
     <section id='mainHeader' class='mainHeader'>
         <nav class='flexContainer mainNav'>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#resume">Resume</a>
-            <a href="#contact">Contact</a>
+            <a class='js-scroll-trigger' href="#homeImage">Home</a>
+            <a class='js-scroll-trigger' href="#aboutMe">About</a>
+            <a class='js-scroll-trigger' href="#resume">Resume</a>
+            <a class='js-scroll-trigger' href="#contactMe">Contact</a>
         </nav>
     </section>
 
@@ -24,7 +24,7 @@
         </section>
         <section id="mainContent" class="mainContentContainer">
             <div class='flexContainer sectionContainer'>
-                <div class='vertLine'>&nbsp;</div>                
+                <div id='aboutMe' class='vertLine'>&nbsp;</div>                
                 <div class='sectionHeading'>
                     <p class='sectionTitle'>About Me</p>
                 </div>
@@ -32,7 +32,7 @@
                 <div class='horizontalRight'>&nbsp;</div>
 
                 <section class='lineRight'>
-                    <section class='reduceForLines'>
+                    <section class='reduceForLines aboutMe'>
                         <div class='mainSectionContent'>
                                 hello world i am frank.
                         </div>
@@ -40,7 +40,7 @@
                 </section>
 
                 <div class='horizontalRight'>&nbsp;</div>            
-                <div class='vertLine'>&nbsp;</div>            
+                <div id='resume' class='vertLine'>&nbsp;</div>            
                 <div class='sectionHeading'>
                     <p class='sectionTitle'>Resume</p>
                 </div>
@@ -48,7 +48,184 @@
                 <div class='horizontalLeft'>&nbsp;</div>
 
                 <section class='lineLeft'>
-                    <section class='reduceForLines'>
+                    <section class='reduceForLines resume'>
+                        <div class='job'>
+                            <div class='flexContainer jobHeader'>
+                                <p class='jobHeader header'>Senior Software Developer</p>
+                                <p class='jobHeader subHeader'>Mortgage Specialists International</p>
+                            </div>
+                            <div class='flexContainer jobHeader'>
+                                <p class='jobHeader'>Sept 2011 - June 2018 (6yrs 10mos)</p>
+                                <p class='jobHeader subHeader'>Hurst, Texas</p>
+                            </div>
+                            <br>
+                            <br>
+                            <section>
+                                <div class='flexContainer'>
+                                    <div>
+                                        <p class='subHeader medWidth'>Technology Stack:</p>
+                                    </div>
+                                    <div class='flexContainer techCallout mg-l'>
+                                        <p class='subHeader unl'>Day to Day</p>
+                                        <br>
+                                        <ul>
+                                            <li>Node.js</li>
+                                            <li>Javascript</li>
+                                            <li>Web API</li>
+                                            <li>HTML/CSS/FlexBox</li>
+                                            <li>SQL</li>
+                                        </ul>
+                                    </div>
+                                    <div class='mg-l'>
+                                        <p class='subHeader unl'>Familar With</p>
+                                        <br>
+                                        <ul>
+                                            <li>Vue.js</li>
+                                            <li>MVC</li>
+                                            <li>MySQL</li>
+                                            <li>C#</li>
+                                            <li>Feathers.js</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <div class='flexContainer'>
+                                    <div>
+                                        <p class='subHeader medWidth'>Experience:</p>                            
+                                    </div>
+                                    <div class='mg-l'>
+                                        <ul>
+                                            <li>Created feature rich custom application modules to meet the needs of increasing business. </li>
+                                            <li>Participated in all large-scale initiatives.  As one of the more senior members of the team, my role was to always provide insight into possible pitfalls that may be overlooked while planning is taking place. </li>
+                                            <li>At the request of the CEO, relocated to Jacksonville Florida where I assembled a development team that would consume 100% support for 2 of the 4 business lines. 	</li>
+                                            <li>Create and maintain TFS builds for a wide variety of applications.</li>
+                                            <li>Plan, coordinate and execute production releases using multiple deployment mechanisms  </li>
+                                            <li>Responsible for debugging and resolving production issues timely and effectively.</li>
+                                            <li>Primary system administrator for on-prem hosted Jira ticketing system. Created and maintained all workflows to support the needs of the company.</li>
+                                        </ul>                                            
+                                    </div> 
+                                </div>
+                            </section>
+                        </div>
+                        <div class='job'>
+                            <div class='flexContainer jobHeader'>
+                                <p class='jobHeader header'>Senior Software Developer</p>
+                                <p class='jobHeader subHeader'>Mortgage Specialists International</p>
+                            </div>
+                            <div class='flexContainer jobHeader'>
+                                <p class='jobHeader'>Sept 2011 - June 2018 (6yrs 10mos)</p>
+                                <p class='jobHeader subHeader'>Hurst, Texas</p>
+                            </div>
+                            <br>
+                            <br>
+                            <section>
+                                <div class='flexContainer'>
+                                    <div>
+                                        <p class='subHeader medWidth'>Technology Stack:</p>
+                                    </div>
+                                    <div class='flexContainer techCallout mg-l'>
+                                        <p class='subHeader unl'>Day to Day</p>
+                                        <br>
+                                        <ul>
+                                            <li>Node.js</li>
+                                            <li>Javascript</li>
+                                            <li>Web API</li>
+                                            <li>HTML/CSS/FlexBox</li>
+                                            <li>SQL</li>
+                                        </ul>
+                                    </div>
+                                    <div class='mg-l'>
+                                        <p class='subHeader unl'>Familar With</p>
+                                        <br>
+                                        <ul>
+                                            <li>Vue.js</li>
+                                            <li>MVC</li>
+                                            <li>MySQL</li>
+                                            <li>C#</li>
+                                            <li>Feathers.js</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <div class='flexContainer'>
+                                    <div>
+                                        <p class='subHeader medWidth'>Experience:</p>                            
+                                    </div>
+                                    <div class='mg-l'>
+                                        <ul>
+                                            <li>Created feature rich custom application modules to meet the needs of increasing business. </li>
+                                            <li>Participated in all large-scale initiatives.  As one of the more senior members of the team, my role was to always provide insight into possible pitfalls that may be overlooked while planning is taking place. </li>
+                                            <li>At the request of the CEO, relocated to Jacksonville Florida where I assembled a development team that would consume 100% support for 2 of the 4 business lines. 	</li>
+                                            <li>Create and maintain TFS builds for a wide variety of applications.</li>
+                                            <li>Plan, coordinate and execute production releases using multiple deployment mechanisms  </li>
+                                            <li>Responsible for debugging and resolving production issues timely and effectively.</li>
+                                            <li>Primary system administrator for on-prem hosted Jira ticketing system. Created and maintained all workflows to support the needs of the company.</li>
+                                        </ul>                                            
+                                    </div> 
+                                </div>
+                            </section>
+                        </div>
+                        <div class='job'>
+                            <div class='flexContainer jobHeader'>
+                                <p class='jobHeader header'>Senior Software Developer</p>
+                                <p class='jobHeader subHeader'>Mortgage Specialists International</p>
+                            </div>
+                            <div class='flexContainer jobHeader'>
+                                <p class='jobHeader'>Sept 2011 - June 2018 (6yrs 10mos)</p>
+                                <p class='jobHeader subHeader'>Hurst, Texas</p>
+                            </div>
+                            <br>
+                            <br>
+                            <section>
+                                <div class='flexContainer'>
+                                    <div>
+                                        <p class='subHeader medWidth'>Technology Stack:</p>
+                                    </div>
+                                    <div class='flexContainer techCallout mg-l'>
+                                        <p class='subHeader unl'>Day to Day</p>
+                                        <br>
+                                        <ul>
+                                            <li>Node.js</li>
+                                            <li>Javascript</li>
+                                            <li>Web API</li>
+                                            <li>HTML/CSS/FlexBox</li>
+                                            <li>SQL</li>
+                                        </ul>
+                                    </div>
+                                    <div class='mg-l'>
+                                        <p class='subHeader unl'>Familar With</p>
+                                        <br>
+                                        <ul>
+                                            <li>Vue.js</li>
+                                            <li>MVC</li>
+                                            <li>MySQL</li>
+                                            <li>C#</li>
+                                            <li>Feathers.js</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <div class='flexContainer'>
+                                    <div>
+                                        <p class='subHeader medWidth'>Experience:</p>                            
+                                    </div>
+                                    <div class='mg-l'>
+                                        <ul>
+                                            <li>Created feature rich custom application modules to meet the needs of increasing business. </li>
+                                            <li>Participated in all large-scale initiatives.  As one of the more senior members of the team, my role was to always provide insight into possible pitfalls that may be overlooked while planning is taking place. </li>
+                                            <li>At the request of the CEO, relocated to Jacksonville Florida where I assembled a development team that would consume 100% support for 2 of the 4 business lines. 	</li>
+                                            <li>Create and maintain TFS builds for a wide variety of applications.</li>
+                                            <li>Plan, coordinate and execute production releases using multiple deployment mechanisms  </li>
+                                            <li>Responsible for debugging and resolving production issues timely and effectively.</li>
+                                            <li>Primary system administrator for on-prem hosted Jira ticketing system. Created and maintained all workflows to support the needs of the company.</li>
+                                        </ul>                                            
+                                    </div> 
+                                </div>
+                            </section>
+                        </div>
                         <div class='job'>
                             <div class='flexContainer jobHeader'>
                                 <p class='jobHeader header'>Senior Software Developer</p>
@@ -110,6 +287,22 @@
                         </div>
                     </section>
                 </section>
+                <div class='horizontalLeft'>&nbsp;</div>
+                <div id='contactMe' class='vertLine'>&nbsp;</div>
+                <div class='sectionHeading'>
+                    <p class='sectionTitle'>Contact Me</p>
+                </div>
+                <div class='vertLine'>&nbsp;</div>                                    
+                <div class='horizontalRight'>&nbsp;</div>
+
+                <section class='lineRight'>
+                    <section class='reduceForLines'>
+                        <div class='mainSectionContent'>
+                                content goes here
+                        </div>
+                    </section>
+                </section>                                            
+
             </div>        
         </section>
     </div>
@@ -148,7 +341,19 @@ export default {
     $(window).scroll(navbarCollapse);
 
 
-
+    // Smooth scrolling using jQuery easing
+    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+            $('html, body').animate({
+            scrollTop: (target.offset().top - 54)
+            }, 1000, "easeInOutExpo");
+            return false;
+        }
+        }
+    });
     }
   }
 };
