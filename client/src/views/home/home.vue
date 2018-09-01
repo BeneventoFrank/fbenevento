@@ -30,21 +30,14 @@
                     <br>
                     <section class='reduceForLines aboutMe'>
                         <div class='mainSectionContent'>
-                            <section class="flexContainer">
-                                <div class="flexContainer contactInfo stackAndCenter">
-                                    <img class="card-img-top" src="/static/img/frank.png" alt="Me at my computer">
-                                    <p class='name'>Frank Benevento</p>
-                                    <p><i class="fa fa-map-marker" aria-hidden="true"></i>Fairfax CA 94930</p>
-                                    <p><i class="fa fa-phone-square" aria-hidden="true"></i>817-805-5994</p>
-                                    <p><i class="fa fa-envelope" aria-hidden="true"></i>frankbenevento123@gmail.com</p>
-                                    <p>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-github"></i></a>                                         
-                                    </p>
-                                </div>
-                                <div>
-                                    
-                                </div>    
+                            <section class="resumeContent">
+                                <h1 class='header'>Hello World.</h1>
+                                <section id='profText' class='resumeContent'>
+                                    <p>My name is <span id='callOuts'>Frank Benevento</span>, welcome to my small slice of the internet. I am a full-stack developer new to the San Fransisco Bay area. I've been in this industry for over 17 years because I enjoy leveraging technology to solve problems.  </p>
+                                    <p>I enjoy working with various technologies such as <span class='callOuts'>Javascript</span>, <span class='callOuts'>node.js</span>, <span class='callOuts'>web api</span>, <span class='callOuts'>HTML</span> and i can NOT get enough <span class='callOuts'>flexbox</span>. I have recently decided to refresh my skillsets and so I have enrolled at <a href="https://lambdaschool.com/">Lambda School</a>. Read about my experience here! </p>
+                                    <p>I'm a very dependable employee with a strong work ethic and a desire to exceed expectations.</p>
+                                    <p>I believe in a work life balance, you kinda have to when you have two kids, a wife, and a busy schedule.  I do like to devote some time to solving javascript code challenges but when i need down time i usually turn to cycling or mountain biking.  </p>
+                                </section>                                        
                             </section>
                         </div>
                     </section>

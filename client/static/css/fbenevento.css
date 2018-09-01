@@ -48,7 +48,7 @@ table {
 }
 
 body{
-  font-family:'Nunito Sans', sans-serif ;
+  font-family:'Nunito Sans', sans-serif ;  
   background-color:#C6C5B9;
 }
 .flexContainer{
@@ -262,4 +262,13 @@ body{
 }
 .footer{
   width:111%
+} 
+.externalLinks a{
+  margin-left:5px;
+}
+#profText p{
+  margin:15px;
+}
+#profText .callOuts{
+  font-weight: bold;
 }
