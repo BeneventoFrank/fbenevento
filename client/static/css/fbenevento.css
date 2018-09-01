@@ -94,6 +94,10 @@ body{
 .centerItem{
   justify-content: center;
 }
+.centerCard{
+  justify-content: center;
+  align-items: center;
+}
 .lineRight{
   border-right:1px solid #546A7B;
 }
@@ -238,22 +242,24 @@ body{
   font-size: xx-large;
 }
 
-.boxShadow{
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 3px 5px lightgray;
-  }
-.sideBar{
-  width: 25%;
-}
-
 .objectiveText{
   margin-bottom:40px;
 }
 
-.job{
-  margin-top:30px;
+.resumeContent{
+  margin-top:10px;
+  margin-left:90px;
+}
+.resumeContent .jobHeader{
+  font-size: x-large;
 }
 .resumeContent{
   padding:20px;
+}
+.flexContainer .resumeContent .projects{
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer{
+  width:111%
 }
