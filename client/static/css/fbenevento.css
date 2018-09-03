@@ -47,14 +47,20 @@ table {
 	border-spacing: 0;
 }
 
+html{
+  height:100%;
+}
 body{
   font-family:'Nunito Sans', sans-serif ;  
   background-color:#C6C5B9;
+  height: 100%;   
+  box-sizing: border-box;  
 }
 .flexContainer{
   display:flex;
 }
-.navbar-shrink {
+.navbar-shrink, .blogNav
+ {
   background-color: #393D3F !important;
   height:50px !important;
 }
@@ -141,7 +147,7 @@ body{
 .vertLine{
   border-right:1px solid #546A7B;
   min-height:60px;
-  width: 1px;
+  width:1px;
   align-self: center;
 }
 .horizontalRight{
@@ -185,6 +191,22 @@ body{
 .mainSectionContent{
   height:fit-content;
 }
+.blogContainer{
+  width:95%;
+}
+.blogMenu{
+  width:40%;
+  height: 100%;  /*allows both columns to span the full height of the browser window*/
+  flex-direction: column; 
+}
+.blogMenu nav{
+  display:flex;
+  flex-direction: column;
+  align-items:flex-start;
+}  
+.blogNav{
+
+}
 .sectionHeading {
   justify-content: center;
   align-self: center;
@@ -205,14 +227,19 @@ body{
 .medWidth{
   width:150px;
 }
-.aboutMe{
+
+
+.aboutMe,
+.resume,
+.contactMe,
+.blogPost{
   background-image: url("/static/img/gl.jpg");
 }
-.resume{
-  background-image: url("/static/img/gl.jpg");
+.maxHeight{
+  height:100%;
 }
-.contactMe{
-  background-image: url("/static/img/gl.jpg");
+.maxWidth{
+  width:100%;
 }
 .contactInfo{
   width:35%;
@@ -260,8 +287,12 @@ body{
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.footer{
-  width:111%
+.footer,
+.blogHeader{
+  width:100%
+}
+.addMargins{
+  width:50%
 } 
 .externalLinks a{
   margin-left:5px;
@@ -272,3 +303,14 @@ body{
 #profText .callOuts{
   font-weight: bold;
 }
+.finalVert{
+  height:100%;
+}
+.finalHeading{
+  width:100%;
+  height:15px;
+}
+.lambdaLogo{
+  margin-bottom:50px;
+}
+

@@ -5,6 +5,7 @@
             <nav class='flexContainer mainNav'>
                 <a class='js-scroll-trigger' href="#homeImage">Home</a>
                 <a class='js-scroll-trigger' href="#aboutMe">About</a>
+                <router-link to="lambdaBlog">Lambda School Blog</router-link>
                 <a class='js-scroll-trigger' href="#resume">Resume</a>
                 <a class='js-scroll-trigger' href="#contactMe">Contact</a>
             </nav>
@@ -33,8 +34,8 @@
                             <section class="resumeContent">
                                 <h1 class='header'>Hello World.</h1>
                                 <section id='profText' class='resumeContent'>
-                                    <p>My name is <span id='callOuts'>Frank Benevento</span>, welcome to my small slice of the internet. I am a full-stack developer new to the San Fransisco Bay area. I've been in this industry for over 17 years because I enjoy leveraging technology to solve problems.  </p>
-                                    <p>I enjoy working with various technologies such as <span class='callOuts'>Javascript</span>, <span class='callOuts'>node.js</span>, <span class='callOuts'>web api</span>, <span class='callOuts'>HTML</span> and i can NOT get enough <span class='callOuts'>flexbox</span>. I have recently decided to refresh my skillsets and so I have enrolled at <a href="https://lambdaschool.com/">Lambda School</a>. Read about my experience here! </p>
+                                    <p>My name is <span id='callOuts'>Frank Benevento</span>, welcome to my small slice of the internet. I am a full-stack developer new to the San Francisco Bay area. I've been in this industry for over 17 years because I enjoy leveraging technology to solve problems.  </p>
+                                    <p>I enjoy working with various technologies such as <span class='callOuts'>Javascript</span>, <span class='callOuts'>node.js</span>, <span class='callOuts'>web api</span>, <span class='callOuts'>HTML</span> and i can NOT get enough <span class='callOuts'>flexbox</span>. I have recently decided to refresh my skillsets and so I have enrolled at <a href="https://lambdaschool.com/" target="_blank">Lambda School</a>. Read about my experience <router-link to='lambdaBlog'>here</router-link> </p>
                                     <p>I'm a very dependable employee with a strong work ethic and a desire to exceed expectations.</p>
                                     <p>I believe in a work life balance, you kinda have to when you have two kids, a wife, and a busy schedule.  I do like to devote some time to solving javascript code challenges but when i need down time i usually turn to cycling or mountain biking.  </p>
                                 </section>                                        
@@ -309,11 +310,18 @@
                 </section> 
                 
                 <div class='horizontalRight'>&nbsp;</div>            
-                <div id='resume' class='vertLine'>&nbsp;</div>            
-                <div class='sectionHeading footer'>
-                    &nbsp;
+                <div class='vertLine'>&nbsp;</div>            
+                <div class='vertLine'>&nbsp;</div>            
+                <div class='vertLine'>&nbsp;</div>            
+                <div class='vertLine'>&nbsp;</div>            
+                <div class='sectionHeading finalHeading'>
+                    <br>
+                    <br>
+                    <br>
                 </div>
-
+                <br>
+                <br>
+                <br>
             </section>
         </div>
     </div>
